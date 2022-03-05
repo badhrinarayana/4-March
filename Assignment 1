@@ -1,0 +1,23 @@
+ l=[] 
+n=int (input ("how many numbers do you want to enter :"))
+
+c=0
+
+for i in range (n):
+
+x=int (input ())
+
+l.append(x)
+res=[]
+
+for i in l:
+
+if i not in res:
+
+res.append (i)
+
+else:
+
+c=c+1
+
+print (res) print (c)
