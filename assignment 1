@@ -1,0 +1,22 @@
+l=[]
+n=int(input())
+c=0
+
+for i in range (n):
+
+x=int (input ())
+
+1.append(x)
+
+for i in 1:
+
+if i not in res:
+
+res.append (i)
+
+else:
+
+c=c+1
+
+print (res)
+print (c)
